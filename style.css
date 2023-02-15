@@ -1,0 +1,89 @@
+body {
+  font-family: 'Abel', sans-serif;
+  color: #2C363F ;
+}
+
+h1, h4 {
+  font-family: 'Rubik', sans-serif;
+  color: #FB6107;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 280px;
+  border-radius: 100%;
+}
+
+span {
+  color:#2C363F;
+}
+
+#supernerd {
+  color: #FB6107;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background-color: #ECF5FE ;
+  margin: 20px auto;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px #2C363F;
+}
+
+.btn {
+  background-color: #3E92CC;
+  border-radius: 3px;
+  box-shadow: 1px 2px 5px black;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #FB6107 ;
+}
+
+#socials li{
+  display: inline;
+  font-size: 40px;
+}
+
+#socials {
+  padding-left: 0;
+}
+
+#first-div {
+  padding-bottom: 35px;
+}
+
+#description {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
